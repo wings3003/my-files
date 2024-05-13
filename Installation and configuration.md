@@ -8,7 +8,9 @@ create new user for mariadb (only use that user for all db applications, do not 
 grant all permissions to new user (command is i arch wiki)
 crate database
 launch mariadb with new user 
+
 	# mariadb -u user_name -p database name
+	
 initiation is done.
 
 in VS code install two extensions **"SQLTools"** and **"SQLTools MySQL/MariaDB"** (driver)
