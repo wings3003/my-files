@@ -95,3 +95,53 @@ SQL uses YYYY-MM-DD as default date type and HH:MM:SS as defauld time type.
 
 DATETIME default is 'YYYY-MM-DD HH:MM:SS'
 
+To select current date use functions like CURDATE(), CURTIME() and NOW() <- for date time
+
+For more granular requirements we can use DAY(), DAYOFWEEK(), DAYOFYEAR()
+	DAY() is used for extracting the day on the month
+	DAYOFWEEK() is used for day of the week
+	DAYOFYEAR() for day of the year
+	WEEK() for wwek number of the year
+	MONTHNAME()is used for ane of the month 
+
+to extract the info you need to pass the the correct arguments for the function
+	WEEK(<time_value>) would only give us current week number, since the argument does not have any date info in it only time info
+
+Date formatting
+
+use  DATEFORMAT() for getting a return of specific date formats, you need to pass arguments suitable to your requirement.
+
+	%a short weekday name
+	%b short month name
+	%c month numeric
+	e.g
+	SELECT DATEFORMAT(%a,%b,%c) would give 'FRI JAN 01'
+	look through mySQL wiki for different date & time arguments for DATEFORMAT() 
+
+Date Maths
+
+DATEDIFF() gives differentce between two date values.
+
+DATE_ADD() and DATE_SUB() are user when you want to add or subtract a time interval of any kind from given date.
+
+	e.g DATE_ADD('2024-05-14', INTERVAL 1 YEAR);
+	this would add 1 year to 2024.
+
+you can use basic aritmatic operators like - and + to get the perform operation on your date/time values
+
+	e.g. SELECT NOW() + INTERVAL 5 MINUTE;
+
+
+TIMESTAMP() has similar format to DATETIME() but it takes up less space and has shorter range (1970 to 2038)
+
+    CREATE TABLE captions (
+      text VARCHAR(150),
+      created_at TIMESTAMP default CURRENT_TIMESTAMP
+    );
+     
+    CREATE TABLE captions2 (
+      text VARCHAR(150),
+      created_at TIMESTAMP default CURRENT_TIMESTAMP,
+      updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    );
+
