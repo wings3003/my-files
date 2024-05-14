@@ -87,4 +87,11 @@ it is useful to use this way of saving variables when you need to save memory an
 
 to store decimal values use DECIMAL, DOUBLE, FLOAT
 
-	 
+Float stores up to 7 digits, after 7 digits we may get precision issues
+
+Date and time data types
+
+SQL uses YYYY-MM-DD as default date type and HH:MM:SS as defauld time type.
+
+DATETIME default is 'YYYY-MM-DD HH:MM:SS'
+
