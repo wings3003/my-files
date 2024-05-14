@@ -98,10 +98,11 @@ DATETIME default is 'YYYY-MM-DD HH:MM:SS'
 To select current date use functions like CURDATE(), CURTIME() and NOW() <- for date time
 
 For more granular requirements we can use DAY(), DAYOFWEEK(), DAYOFYEAR()
-	DAY() is used for extracting the day on the month
+	DAY() is used for extracting the numeric day on the month
 	DAYOFWEEK() is used for day of the week
 	DAYOFYEAR() for day of the year
-	WEEK() for wwek number of the year
+	DAYNAME() for name of the day
+	WEEK() for week number of the year
 	MONTHNAME()is used for ane of the month 
 
 to extract the info you need to pass the the correct arguments for the function
