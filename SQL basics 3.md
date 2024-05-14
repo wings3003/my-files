@@ -12,6 +12,5 @@ Not like operator is used when we want to use a mismatch(no match) of falues
     WHERE title NOT LIKE '%e%';
 
 lookup SQL wiki for greater than '>', less than '<', less than or equal to '<='
-'AND', 'OR' operators.
+'AND', 'OR', 'BETWEEN' 'NOT BETWEEN' operators.
 
-test
