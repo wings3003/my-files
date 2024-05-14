@@ -6,7 +6,7 @@ Not equal != is used when we want to select cases that do not match a perticular
     SELECT * FROM books
     WHERE released_year != 2017;
 
-Not like operator is used when we want to use a mismatch(no match) of falues
+Not like operator is used when we want to use a mismatch(no match) of values
 
     SELECT * FROM books
     WHERE title NOT LIKE '%e%';
