@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0752d0685a4ca2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "git test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "git test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "git test.md"
               }
             }
           }
@@ -146,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11854acd19354271",
+  "active": "d0752d0685a4ca2e",
   "lastOpenFiles": [
+    "README.md",
+    "git test.md",
     "SQL basics 3.md",
     "SQL basics 2.md",
     "SQL basics 1.md",
-    "Installation and configuration.md",
-    "README.md"
+    "Installation and configuration.md"
   ]
 }
