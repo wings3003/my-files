@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "349810b9f2972757",
+        "id": "404dc16fd51ef8fd",
         "type": "tabs",
         "children": [
           {
-            "id": "11854acd19354271",
+            "id": "88deae7eff39fd65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0752d0685a4ca2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git test.md",
+                "file": "SQL Studies/git test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git test.md",
+                "file": "SQL Studies/git test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git test.md"
+                "file": "SQL Studies/git test.md"
               }
             }
           }
@@ -159,13 +142,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0752d0685a4ca2e",
+  "active": "713de17586de2668",
   "lastOpenFiles": [
+    "SQL Studies/SQL basics 1.md",
+    "SQL Studies/Installation and configuration.md",
+    "SQL Studies/git test.md",
+    "SQL Studies",
     "README.md",
-    "git test.md",
-    "SQL basics 3.md",
-    "SQL basics 2.md",
-    "SQL basics 1.md",
-    "Installation and configuration.md"
+    "SQL Studies/SQL basics 3.md",
+    "SQL Studies/SQL basics 2.md"
   ]
 }
