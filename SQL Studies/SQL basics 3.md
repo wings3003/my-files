@@ -40,7 +40,7 @@ you can add custom name to a constraint when you want to understand why a constr
     CREATE TABLE users2 (
         username VARCHAR(20) NOT NULL,
         age INT,
-        **CONSTRAINT age_not_negative** CHECK (age >= 0)
+        CONSTRAINT age_not_negative CHECK (age >= 0)
     );
 
 Altering Tables
@@ -68,4 +68,19 @@ Renaming a column
     ALTER TABLE companies
     RENAME COLUMN name TO company_name;
 
+Changing column properties
 
+    ALTER TABLE companies
+    MODIFY company_name VARCHAR(100) DEFAULT 'unknown';
+
+Renaming and modifying at the same time
+
+    ALTER TABLE companies
+    CHANGE company_name org_name VARCHAR(100) DEFAULT 'unknown';  <--- with CHANGE operator we can rename and modify at the same time.
+
+Adding or dropping constraints
+
+    ALTER TABLE companies
+    MODIFY company_name VARCHAR(100) DEFAULT 'unknown';
+
+    ALTER TABLE houses DROP CONSTRAINT positive_price;
