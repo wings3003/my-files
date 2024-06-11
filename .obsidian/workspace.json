@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "404dc16fd51ef8fd",
+        "id": "531b83dd0cbed678",
         "type": "tabs",
         "children": [
           {
-            "id": "88deae7eff39fd65",
+            "id": "38a5b0567645fbf9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SQL Studies/SQL basics 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SQL Studies/SQL basics 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SQL Studies/SQL basics 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SQL Studies/SQL basics 1.md"
+              }
             }
           }
         ]
@@ -138,16 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "88deae7eff39fd65",
+  "active": "38a5b0567645fbf9",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "SQL Studies/git test.md",
-    "SQL Studies/Installation and configuration.md",
-    "SQL Studies/Joins.md",
-    "SQL Studies/SQL basics 1.md",
-    "SQL Studies",
-    "README.md",
     "SQL Studies/SQL basics 3.md",
-    "SQL Studies/SQL basics 2.md"
+    "SQL Studies/SQL basics 1.md",
+    "SQL Studies/Joins.md",
+    "SQL Studies/Installation and configuration.md",
+    "SQL Studies/git test.md",
+    "SQL Studies/SQL basics 2.md",
+    "Untitled.canvas",
+    "SQL Studies",
+    "README.md"
   ]
 }
